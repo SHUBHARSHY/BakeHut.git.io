@@ -1,0 +1,134 @@
+.about-profile-button {
+    background-color:#e7bf97;
+    color: whitesmoke;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: large;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+}
+.about-profile-button:hover{
+    background-color: #808927;
+    color: white;
+}
+
+.about-whole{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    margin-left: 15%;
+}
+
+.about-left h1 {
+    color: grey;
+    font-size: 50px;
+    text-align: center;
+}
+
+.about-left h1 span {
+    background-color: #808927;
+    color: whitesmoke;
+    border-radius: 15px;
+    padding: 0 10px;
+}
+
+.about-left h4 {
+    color: black;
+    padding-top: 10px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+.about-right {
+    width: 400px;
+}
+
+.about{
+
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.about-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.dashes{
+    background-color: #c8c9cf;
+    height: 1px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 100%;
+}
+
+.inner-bottom{
+
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    margin-top: 25px;
+}
+
+.img-btm{
+    max-width: 667px;
+    width: 50%;
+    height: 400px;
+}
+
+.bottom-details{
+    width: auto;
+    margin: 2rem;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.btm-heading{
+    margin-top: 0px;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.about-btm{   
+    color: #a89696;
+    line-height: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+    @media only screen and (max-width: 761px){
+
+      .about-whole{
+flex-flow: column;
+margin: 0px;
+      }
+
+      .about-right{
+          width: 100%;
+      }
+      .inner-bottom{
+          flex-flow: column;
+      }
+      .img-btm{
+          width: 100%;
+      }
+
+    }

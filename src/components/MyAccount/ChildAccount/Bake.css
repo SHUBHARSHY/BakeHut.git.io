@@ -1,0 +1,45 @@
+.bake-div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content:space-evenly;
+}
+.bake-div-info{
+
+}
+.apple-img{
+    
+}
+.play-img{
+
+}
+.bake-img{
+    width:360px;
+    height:330px
+}
+@media (max-width: 720px) {
+    .bake-img{
+        width:260px;
+        height:230px
+    } 
+
+    .apple-img{
+    width: 150px;
+    }
+    .play-img{
+    width: 150px;
+    }
+}
+@media (max-width: 500px) {
+    .bake-img{
+        width:160px;
+        height:130px
+    } 
+
+    .apple-img{
+    width: 100px;
+    }
+    .play-img{
+    width: 100px;
+    }
+}

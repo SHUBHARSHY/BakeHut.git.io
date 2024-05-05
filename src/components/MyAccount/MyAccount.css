@@ -1,0 +1,93 @@
+.upr-profile{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background:#EECEAD
+}
+
+.local-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+}
+.edit-info-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit-info-btn{
+    color: #60b246;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+    padding: 8px 25px;
+    border: 1px solid #aabcca;
+    box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 8%);
+    width: 117px;
+    height: 40px;
+}
+.my-profile{
+    width: 97%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.side-bar{
+    background:#edf1f7;
+    color: #535665;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 20px;
+    /* border: 1px solid #aabcca;
+    box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 8%); */
+}
+.side-bar>h4:hover{
+    color: #282c3f;
+    cursor: pointer;
+}
+.selected{
+    background-color: white;
+    color: #282c3f;
+    width: 100%;
+    margin: 0;
+    /* border: 1px solid; */
+    text-align: center;
+    height: 9vh;
+    line-height: 56px;
+    cursor: pointer;
+   
+}
+.dy-container{
+    width: 71%;
+    height: 57vh;
+    overflow-y: scroll;
+    margin-top: 50px;
+
+}
+
+.dy-container::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+@media (max-width: 600px){
+.title{
+    display: none;
+}
+}
+
+@media (max-width: 500px) {
+    .dy-container{
+        /* height:66vh */
+        }
+          
+        .selected{
+            height: 5vh;
+        }
+}

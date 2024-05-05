@@ -1,0 +1,74 @@
+
+.order-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.cart-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+.order-details{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.empty-order{
+   
+    /* display: flex;
+    flex-flow: column; */
+}
+
+.img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.Food-history{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+.order-again{
+    display: flex;
+    gap: 10px;
+    width: max-content;
+    flex-wrap: wrap;
+}
+.order-container{
+    border: 1px solid #D5D9D9;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.order-item{
+    color: #93959f;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 500px) {
+
+    .order-img{
+
+        width: 200px;
+    }
+    .order-sec{
+        /* overflow-y: scroll;
+    height: 68vh; */
+    }
+
+}

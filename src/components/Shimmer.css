@@ -1,0 +1,83 @@
+
+.shimmer-container{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  margin-left: 70px;
+}
+.shimmer-header{
+  width: 45%;
+  height: 35px;
+  background-color: lightgray;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.shimmer-img{
+  width: 90%;
+  height: 250px;
+  background-color: lightgray;
+}
+.resturant-list{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Shimmer-card {
+    width: 216px;
+    height: 240px;
+    border-radius: 5px;
+    box-shadow: -1px 5px 10px 5px rgba(42, 42, 42, 0.2);
+    padding: 10px;
+    margin: 24px;
+    cursor: pointer;
+  }
+  
+  .Shimmer-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .Shimmer-card > div {
+    width: 200px;
+    height: 125px;
+    background: lightgray;
+    border-radius: 10px;
+  }
+  
+  .Shimmer-card > span {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .Shimmer-card > span > h4 {
+    font-size: medium;
+  }
+  
+  .Shimmer-card > span > h4:first-child {
+    display: flex;
+    align-items: center;
+    background-color: rgb(19, 176, 1);
+    border-radius: 5px;
+    padding: 0 5px 0;
+    color: white;
+  }
+  
+  .Shimmer-card > span > h4:first-child .fa-star {
+    font-size: small;
+    padding: 0 10px 3px 0;
+  }
+
+  @media only screen and (max-width: 761px){
+
+    .shimmer-container{
+      
+      margin-left: 35px;
+    }
+
+  }
+

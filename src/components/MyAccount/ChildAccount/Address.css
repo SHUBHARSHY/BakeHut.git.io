@@ -1,0 +1,68 @@
+.no-address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.no-text{
+    text-align: center;
+    color: #535665;
+}
+.MyAddress{
+    border: 1px solid #d4d5d9;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: fit-content;
+    padding: 20px;
+    gap: 10px;
+}
+
+.add-details{
+    display: flex;
+    flex-flow: column;
+}
+.add-margin{
+    margin:0;
+    color: #535665;
+    font-size: small;
+}
+.icon{
+    margin-bottom: 62px;
+    color: #3d4152;
+}
+
+.add-btnn{
+    color: #60b246;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+    padding: 8px 25px;
+    border: 1px solid #aabcca;
+    box-shadow: 1px 2px 4px 0 rgb(0 0 0 / 8%);
+}
+
+@media only screen and (min-width: 1240px){
+.address-btn{
+    display: flex;
+    flex-flow: column;
+}
+}
+@media only screen and (max-width: 761px){
+
+    .MyAddress{
+        flex-flow: column;
+    }
+
+    .address-btn{
+        width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    gap: 10px;
+    }
+    .add-btnn{
+        padding: 8px 4px;
+    }
+}
